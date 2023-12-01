@@ -1,0 +1,97 @@
+.footer__ab__ctn,
+.footer__ab__ctn__contact,
+.footer__ab__ctn__contact__body,
+.footer__bl__ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TODO: Review if vertical-align is necessary here. */
+.footer__ab__ctn__contact__header,
+.footer__ab__ctn__contact__body__item,
+.footer__ab__ctn__contact__body__sm__follow,
+.footer__bl__ctn__item {
+  color: white;
+  font-family: var(--ff-cervo-neue-light);
+  letter-spacing: .2px;
+  vertical-align: middle; 
+}
+
+.footer__ab__ctn__logo img,
+.footer__ab__ctn__group-logo img,
+.footer__ab__ctn__contact__body__sm__icon img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* .footer__ab */
+.footer__ab {
+  background-color: var(--color-gold-fusion);
+}
+
+.footer__ab__ctn {
+  gap: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer__ab__ctn__logo {
+  width: 353px;
+}
+
+.footer__ab__ctn__contact,
+.footer__ab__ctn__contact__body {
+  gap: 30px;
+}
+
+.footer__ab__ctn__contact__header,
+.footer__ab__ctn__contact__body__item {
+  font-size: 13px;
+}
+
+.footer__ab__ctn__contact__body__sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+/* TODO: Search for ways of selecting an element with more than one class. */
+.footer__ab__ctn__contact__body__sm > * {
+  padding: 8px;
+}
+
+.footer__ab__ctn__contact__body__sm__follow {
+  font-size: 11px; 
+}
+
+.footer__ab__ctn__contact__body__sm__icon {
+  width: 25px;
+  border-radius: 2px;
+}
+
+.footer__ab__ctn__contact__body__sm__icon img {
+  vertical-align: middle;
+  border-radius: inherit;
+}
+
+.footer__ab__ctn__group-logo {
+  width: 124px;
+}
+
+/* .footer__bl */
+.footer__bl {
+  background-color: var(--color-raisin-black);
+}
+
+.footer__bl__ctn {
+  height: 73px;
+}
+
+.footer__bl__ctn__item {
+  font-size: 10px;
+  line-height: 1.5;
+}

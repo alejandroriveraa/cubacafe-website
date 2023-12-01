@@ -1,0 +1,49 @@
+.who-are-we {
+  background-color: var(--color-raisin-black);
+  overflow: hidden;
+  color: white;
+}
+
+.who-are-we__ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.who-are-we__ctn__banner img,
+.who-are-we__ctn__body__logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.who-are-we__ctn__banner {
+  /* Corresponding width for height: 425px at the original aspect-ratio. */
+  width: 1545px;
+}
+
+.who-are-we__ctn__body__logo {
+  width: 202px;
+  margin: auto;
+}
+
+.who-are-we__ctn__body__logo,
+.who-are-we__ctn__body__header {
+  margin-bottom: 60px;
+}
+
+.who-are-we__ctn__body__header {
+  font-size: 32px;
+  font-family: var(--ff-cervo-neue-medium);
+  text-align: center;
+}
+
+.who-are-we__ctn__body__content {
+  font-size: 16px;
+  font-family: var(--ff-cervo-neue-light);
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 250px;
+}

@@ -1,0 +1,21 @@
+@media screen and (min-width: 1366px){
+  .who-are-we__ctn__banner {
+    width: 1920px;
+  }
+  
+  .who-are-we__ctn__body__logo {
+    width: 299px;
+    margin-bottom: 120px;
+  }
+
+  .who-are-we__ctn__body__header {
+    font-size: 36px;
+    margin-bottom: 80px;
+  }
+
+  .who-are-we__ctn__body__content {
+    margin-bottom: 60px;
+    font-size: 18px;
+    max-width: 500px;
+  }
+}

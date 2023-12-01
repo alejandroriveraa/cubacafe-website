@@ -1,0 +1,42 @@
+.view-more-item {
+  width: 353px;
+  padding-bottom: 30px;
+}
+
+.view-more-item__image,
+.view-more-item__image img {
+  width: 100%;
+  height: auto;
+}
+
+.view-more-item__image {
+  margin-bottom: 30px;
+  border-radius: 2px;
+}
+
+.view-more-item__image img {
+  display: block;
+  border-radius: inherit;
+}
+
+.view-more-item__header {
+  font-size: 20px;
+  font-family: var(--ff-cervo-neue-medium);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.view-more-item__button {
+  width: 130px;
+  height: 35px;
+  margin: auto;
+}
+
+.view-more-item__button button {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 12px;
+  font-size: 11px;
+  font-family: var(--ff-cervo-neue-medium);
+}

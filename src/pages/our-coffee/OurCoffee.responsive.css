@@ -1,0 +1,15 @@
+@media screen and (min-width: 1366px) {
+  .our-coffee__ctn__banner {
+    width: 1920px;
+  }
+
+  .our-coffee__ctn__body__header {
+    margin-bottom: 80px;
+    font-size: 34px;
+  }
+
+  .our-coffee__ctn__body__content {
+    font-size: 18px;
+    max-width: 500px;
+  }
+}

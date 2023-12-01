@@ -1,0 +1,103 @@
+@media screen and (min-width: 1024px) {
+  /* .home__brands */
+  .home__brands__ab__ctn {
+    flex-direction: initial;
+  }
+
+  .home__brands__bl__ctn {
+    flex-direction: initial;
+    flex-wrap: wrap;
+  }
+
+  /* .home__brands__seals */
+  .home__brands__seals__ctn {
+    flex-direction: initial;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* .home__know-us */
+  .home__know-us__main__ctn__header {
+    font-size: 34px;
+    margin-bottom: 80px;
+  }
+
+  .home__know-us__main__ctn__header__a,
+  .home__know-us__main__ctn__header__b {
+    width: auto;
+  }
+
+  .home__know-us__main__ctn__content {
+    width: 490px;
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+
+  .home__know-us__main__ctn__button {
+    width: 175px;
+    height: 60px;
+    font-size: 14px;
+    margin-bottom: 120px;
+  }
+
+  /* .our__coffee */
+  .home__our-coffee__ctn__bg-image {
+    width: 1920px;
+  }
+
+  .home__.our-coffee__ctn__body__content__header {
+    font-size: 67px;
+    margin-bottom: 60px;
+  }
+  
+  .home__.our-coffee__ctn__body__content__body {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .home__.our-coffee__ctn__body__content__button {
+    width: 110px;
+    height: 60px;
+    font-size: 14px;
+  }
+
+  /* .home__brands */
+  .home__brands__header__ctn {
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+
+  .home__brands__ab__ctn {
+    margin-bottom: 40px;
+  }
+
+  .home__brands__ab__ctn__image,
+  .home__brands__bl__ctn__image {
+    width: 215px;
+  }
+
+  /* .home__brands__seals */
+  .home__brands__seals__ctn {
+    gap: 36px;
+    margin-top: 120px;
+  }
+
+  .seal__bg-image {
+    width: 665px;
+  }
+
+  .seal__content__header {
+    font-size: 36px;
+  }
+
+  .seal__content__button button {
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+  }
+  
+  .seal__content__header,
+  .seal__content__button {
+    margin-bottom: 60px;
+  }  
+}

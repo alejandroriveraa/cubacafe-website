@@ -1,0 +1,23 @@
+.menu {
+  position: relative;
+}
+
+.menu__header__title {
+  display: inline-block;
+}
+
+.menu__header__side {
+  display: inline-flex;
+}
+
+.menu__header__side img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.menu__body {
+  position: absolute;
+  right: 0;
+  width: max-content;
+}

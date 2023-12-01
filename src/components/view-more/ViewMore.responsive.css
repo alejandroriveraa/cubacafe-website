@@ -1,0 +1,11 @@
+@media screen and (min-width: 1024px) {
+  .view-more__ctn {
+    flex-direction: initial;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .view-more__ctn {
+    gap: 36px;
+  }  
+}

@@ -1,0 +1,220 @@
+.home {
+  /* This line is meant to mitigate the effects of the thin white lines appearing around <div> elements that delimitate sections. */
+  background-color: var(--color-raisin-black);
+}
+
+/* .home__know-us */
+.home__know-us {
+  background-color: var(--color-gold-metallic);
+}
+
+/* .home__know-us__main */
+.home__know-us__main__ctn__header,
+.home__know-us__main__ctn__content {
+  /* text-align: center; */
+  line-height: 1.3;
+  color: var(--color-raisin-black);
+}
+
+.home__know-us__main__ctn__header {
+  margin-bottom: 40px;
+  font-family: var(--ff-cervo-neue-medium);
+  font-size: 27px;
+}
+
+.home__know-us__main__ctn__header__a,
+.home__know-us__main__ctn__header__b,
+.home__know-us__main__ctn__content {
+  text-align: center;
+  margin: auto;
+}
+
+.home__know-us__main__ctn__header__a {
+  width: 180px;
+}
+
+.home__know-us__main__ctn__header__b {
+  width: 195px;
+}
+
+.home__know-us__main__ctn__content {
+  width: 353px;
+  font-size: 18px;
+  font-family: var(--ff-cervo-neue-regular);
+  margin-bottom: 30px;
+}
+
+.home__know-us__main__ctn__button {
+  width: 140px;
+  height: 48px;
+  margin: auto;
+  font-size: 11px;
+  font-family: var(--ff-cervo-neue-regular);
+  margin-bottom: 60px;
+}
+
+.home__know-us__main__ctn__button button {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-raisin-black);
+  border-radius: 12px;
+  border-style: none;
+  color: white;
+}
+
+/* .home__know-us__video */
+.home__know-us__video__ctn video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* .home__our-coffee */
+.home__our-coffee {
+  background-color: var(--color-raisin-black);
+  overflow: hidden;
+}
+
+/* TODO: Review if position-relative is necessary here. */
+.home__our-coffee__ctn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__our-coffee__ctn__bg-image {
+  /* Corresponding width for the design height: 500px at the original aspect-ratio. */
+  width: 1256px; 
+}
+
+.home__our-coffee__ctn__bg-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.home__our-coffee__ctn__body__content {
+  position: absolute;
+  color: white;
+  text-align: center;
+  max-width: 450px;
+}
+
+.home__our-coffee__ctn__body__content__header {
+  font-size: 36px;
+  font-family: var(--ff-cervo-neue-medium);
+  margin-bottom: 30px;
+}
+
+.home__our-coffee__ctn__body__content__body {
+  font-size: 15px;
+  font-family: var(--ff-cervo-neue-regular);
+  line-height: 1.3;
+  letter-spacing: .2px;
+  margin-bottom: 20px;
+}
+
+.home__our-coffee__ctn__body__content__button {
+  width: 90px;
+  height: 40px;
+  font-size: 13px;
+  font-family: var(--ff-cervo-neue-medium);
+  margin: auto;
+}
+
+.home__our-coffee__ctn__body__content__button button {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  border-style: none;
+}
+
+/* .home__brands */
+.home__brands {
+  background-color: var(--color-raisin-black);
+}
+
+.home__brands__header {
+  color: white;
+  font-size: 20px;
+  font-family: var(--ff-cervo-neue-regular);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home__brands__ab__ctn,
+.home__brands__bl__ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+
+.home__brands__ab__ctn__image,
+.home__brands__bl__ctn__image {
+  width: 130px;
+}
+
+.home__brands__ab__ctn__image img,
+.home__brands__bl__ctn__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* .home__brands__seals */
+.home__brands__seals__ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 60px;
+}
+
+/* TODO: Review if position-relative is necessary here. */
+.home__brands__seals__ctn__stc, 
+.home__brands__seals__ctn__scc {
+  position: relative;
+}
+
+.seal__bg-image {
+  width: 353px;
+  border-radius: 2px;
+}
+
+.seal__bg-image img {
+  width: 100%;
+  height: auto;
+  display: block; 
+  border-radius: inherit;
+}
+
+.seal__content {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.seal__content__header {
+  color: white;
+  font-size: 20px;
+}
+
+.seal__content__button button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 10px;
+}
+
+.seal__content__header,
+.seal__content__button {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: var(--ff-cervo-neue-regular);
+}

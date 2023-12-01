@@ -1,0 +1,78 @@
+.header__ctn__panel,
+.header__ctn__panel .navigation-panel,
+.header__ctn__panel .language-selector {
+  display: none;
+}
+
+/* .header */
+.header {
+  display: flex;
+  height: 117px;
+  gap: 25px;
+  background-color: var(--color-raisin-black);
+  color: white;
+  font-family: var(--ff-cervo-neue-regular);
+}
+
+.header a {
+  color: white;
+  display: block;
+}
+
+.header__ctn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  gap: 20px;
+}
+
+.header__ctn__logo {
+  width: 151px;
+}
+
+.header__ctn__menu {
+  font-size: 14px;
+}
+
+.header__ctn__menu > .menu > .menu__header .menu__header__side {
+  width: 25px;
+}
+
+/* Apply to only the first occurrence of the class */
+.header__ctn__menu > .menu > .menu__body {
+  background-color: var(--color-raisin-black);
+  border: 1px solid var(--color-old-burgundy);
+  border-radius: 5px;
+  top: 74px;
+  padding: 12px;
+  /* Override width to avoid max-content stretching & shrinking behavior */
+  width: 160px; 
+  z-index: 99;
+}
+
+.header__ctn__menu .navigation-panel a,
+.header__ctn__menu .navigation-panel .menu__header {
+  /* Increase padding for touchable elements. */
+  padding: 16px;
+}
+
+.header__ctn__menu .navigation-panel .menu__header__side {
+  width: 16px;
+  margin-left: 8px;
+  vertical-align: bottom;
+}
+
+.header__ctn__menu .navigation-panel .menu__body {
+  position: relative;
+}
+
+.header__ctn__menu .language-selector {
+  padding: 5px;
+}
+
+.header__ctn__menu .language-selector__item {
+  height: 29px;
+  width: 29px;
+  padding: 5px;
+}

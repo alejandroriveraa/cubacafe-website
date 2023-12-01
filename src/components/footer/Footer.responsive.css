@@ -1,0 +1,65 @@
+@media screen and (min-width: 1024px) {
+  /* .footer__ab */
+  /* & .footer__bl */
+  .footer__ab__ctn__contact__body,
+  .footer__bl__ctn {
+    flex-direction: initial;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* .footer__ab */
+  .footer__ab__ctn {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 80px;
+  }
+
+  .footer__ab__ctn__logo {
+    width: 600px;
+    margin-bottom: 40px;
+  }
+
+  .footer__ab__ctn__contact__header {
+    font-size: 23px;
+  }
+
+  .footer__ab__ctn__contact__body {
+    gap: 60px;
+  }
+
+  .footer__ab__ctn__contact__body__item {
+    font-size: 23px;
+  }
+  
+  .footer__ab__ctn__contact__body__sm {
+    gap: 8px;
+  }
+
+  /* Search for ways of selecting an element with more than one class. */
+  .footer__ab__ctn__contact__body__sm > * {
+    padding: 10px;
+  }
+
+  .footer__ab__ctn__contact__body__sm__follow {
+    font-size: 13px;
+  }
+
+  .footer__ab__ctn__contact__body__sm__icon {
+    width: 32px;
+  }  
+
+  .footer__ab__ctn__group-logo {
+    width: 153px;
+    margin-bottom: 20px;
+  }
+
+  .footer__bl__ctn {
+    gap: 2px;
+    font-size: 13px;
+  }
+  
+  .footer__bl__ctn__item {
+    font-size: 13px;
+  }
+}

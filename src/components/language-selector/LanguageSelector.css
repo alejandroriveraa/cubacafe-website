@@ -1,0 +1,9 @@
+.language-selector__item {
+  display: inline-block;
+}
+
+.language-selector__item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
