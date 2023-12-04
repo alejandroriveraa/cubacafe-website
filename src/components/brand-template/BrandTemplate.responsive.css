@@ -1,0 +1,38 @@
+@media screen and (min-width: 1366px) {
+    .brand-template__ctn__banner {
+        width: 1920px;
+        margin-bottom: 120px;
+    }
+    
+    .brand-template__ctn__logo {
+        width: 300px;
+        margin-bottom: 60px;
+    }
+    
+    .brand-template__ctn__category {
+        font-size: 19px;
+        margin-bottom: 120px;
+    }
+    
+    .brand-template__ctn__content {
+        max-width: 520px;
+    }
+    
+    .brand-template__ctn__content__slogan {
+        font-size: 30px;
+        margin-bottom: 80px;
+    }
+    
+    .brand-template__ctn__content__description,
+    .brand-template__ctn__content__format {
+        font-size: 18px;
+    }
+    
+    .brand-template__ctn__content__description {
+        margin-bottom: 60px;
+    }
+    
+    .brand-template__ctn__content__format {
+        margin-bottom: 120px;
+    }    
+}

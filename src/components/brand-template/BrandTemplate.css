@@ -1,0 +1,69 @@
+.brand-template {
+  overflow: hidden;
+  color: white;
+}
+
+.brand-template__ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-template__ctn__banner img,
+.brand-template__ctn__logo img,
+.brand-template__ctn__video video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.brand-template__ctn__banner {
+  /* Corresponding width for height: 425px at the original aspect-ratio. */
+  width: 850px;
+  margin-bottom: 60px;
+}
+
+
+.brand-template__ctn__logo {
+  width: 215px;
+  margin-bottom: 30px;
+}
+
+.brand-template__ctn__category {
+  font-size: 13px;
+  font-family: var(--ff-cervo-neue-regular);
+  margin-bottom: 60px;
+}
+
+.brand-template__ctn__video {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.brand-template__ctn__content {
+  text-align: center;
+  max-width: 260px;
+}
+
+.brand-template__ctn__content__slogan {
+  font-size: 27px;
+  font-family: var(--ff-cervo-neue-medium);
+  margin-bottom: 40px;
+}
+
+.brand-template__ctn__content__description,
+.brand-template__ctn__content__format {
+  font-size: 15px;
+  font-family: var(--ff-cervo-neue-regular);  
+}
+
+.brand-template__ctn__content__description {
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.brand-template__ctn__content__format {
+  margin-bottom: 60px;
+}
+
